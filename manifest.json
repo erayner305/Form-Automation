@@ -26,7 +26,8 @@
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
-      "matches": ["http://localhost:8081/"]
+      "matches": ["http://localhost:8081/", "https://train-yescare.eomis-cloud.com/eomis/application/dispatch", "https://yescare.eomis-cloud.com/eomis/application/dispatch"],
+      "all_frames": true
     }
   ]
 }
